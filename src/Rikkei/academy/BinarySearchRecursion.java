@@ -33,7 +33,7 @@ public class BinarySearchRecursion {
 
     boolean binarySearchRecursion(ArrayList<Integer> array, int left, int right, int value) {
         int mid = (right + left) / 2;
-        while ((array.size()-1) >= left)
+        while (right >= left)
             if (array.get(mid) == value) {
                 return true;
             } else if (array.get(mid) > value) {
