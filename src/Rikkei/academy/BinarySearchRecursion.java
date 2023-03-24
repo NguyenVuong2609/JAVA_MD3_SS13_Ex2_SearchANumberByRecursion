@@ -1,9 +1,6 @@
 package Rikkei.academy;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Scanner;
+import java.util.*;
 
 public class BinarySearchRecursion {
     public static void main(String[] args) {
@@ -33,7 +30,7 @@ public class BinarySearchRecursion {
 
     boolean binarySearchRecursion(ArrayList<Integer> array, int left, int right, int value) {
         int mid = (right + left) / 2;
-        while (right >= left)
+        if (right >= left){
             if (array.get(mid) == value) {
                 return true;
             } else if (array.get(mid) > value) {
@@ -43,6 +40,7 @@ public class BinarySearchRecursion {
                 left = mid + 1;
                 return binarySearchRecursion(array, left, right, value);
             }
+        }
         return false;
     }
 }

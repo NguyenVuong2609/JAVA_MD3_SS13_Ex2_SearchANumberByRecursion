@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0112bf5-d431-4079-a2c0-4587e906dae9" name="Changes" comment="" />
+    <list default="true" id="a0112bf5-d431-4079-a2c0-4587e906dae9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rikkei/academy/BinarySearchRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rikkei/academy/BinarySearchRecursion.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Java/MD3-SS13-Ex2-BinarySearchRecursion",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,6 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679539272694</updated>
       <workItem from="1679539273999" duration="5309000" />
+      <workItem from="1679563820157" duration="2989000" />
     </task>
     <servers />
   </component>
